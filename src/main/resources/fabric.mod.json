@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "sodium67",
+  "version": "1.0",
+  "name": "FireCheats",
+  "description": "Minecraft utility client",
+  "authors": ["FireClient"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["me.fireclient.FireCheats"]
+  },
+  "mixins": ["mixins.firecheats.json"],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "minecraft": "1.16.5"
+  }
+}
