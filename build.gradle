@@ -3,10 +3,6 @@ plugins {
     id 'java'
 }
 
-base {
-    archivesName = "Sodium67"
-}
-
 repositories {
     mavenCentral()
     maven {
@@ -24,3 +20,4 @@ dependencies {
 
 version = "1.0"
 group = "me.fireclient"
+archivesBaseName = "Sodium67"
