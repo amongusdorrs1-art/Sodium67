@@ -1,1 +1,15 @@
-
+{
+  "required": true,
+  "package": "me.fireclient.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "MixinBlock",
+    "MixinInGameHud",
+    "MixinMinecraftClient",
+    "MixinLivingEntity",
+    "MixinClientPlayNetworkHandler"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
